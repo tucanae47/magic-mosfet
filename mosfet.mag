@@ -1,16 +1,69 @@
 magic
 tech sky130A
-timestamp 1612107351
+timestamp 1612115349
 << nmos >>
-rect 25 165 40 230
+rect 25 160 40 225
 << ndiff >>
-rect -15 165 25 230
-rect 40 165 80 230
+rect -15 209 25 225
+rect -15 175 -10 209
+rect 7 175 25 209
+rect -15 160 25 175
+rect 40 209 80 225
+rect 40 175 58 209
+rect 75 175 80 209
+rect 40 160 80 175
+<< ndiffc >>
+rect -10 175 7 209
+rect 58 175 75 209
 << poly >>
-rect 25 230 40 270
-rect 25 120 40 165
+rect 25 225 40 270
+rect 25 150 40 160
+rect -10 132 40 150
+rect -10 107 -2 132
+rect 27 107 40 132
+rect -10 98 40 107
+<< polycont >>
+rect -2 107 27 132
+<< locali >>
+rect -65 209 15 217
+rect -65 207 -10 209
+rect -65 176 -57 207
+rect -37 176 -10 207
+rect -65 175 -10 176
+rect 7 175 15 209
+rect -65 167 15 175
+rect 50 209 130 216
+rect 50 175 58 209
+rect 75 178 107 209
+rect 127 178 130 209
+rect 75 175 130 178
+rect 50 166 130 175
+rect -46 137 34 148
+rect -46 106 -43 137
+rect -23 132 34 137
+rect -23 107 -2 132
+rect 27 107 34 132
+rect -23 106 34 107
+rect -46 98 34 106
+<< viali >>
+rect -57 176 -37 207
+rect 107 178 127 209
+rect -43 106 -23 137
+<< metal1 >>
+rect -142 207 -32 217
+rect -142 176 -57 207
+rect -37 176 -32 207
+rect -142 167 -32 176
+rect 104 209 214 216
+rect 104 178 107 209
+rect 127 178 214 209
+rect 104 166 214 178
+rect -130 137 -20 148
+rect -130 106 -43 137
+rect -23 106 -20 137
+rect -130 98 -20 106
 << labels >>
-rlabel ndiff 0 203 0 203 1 source
-rlabel ndiff 61 203 61 203 1 drain
-rlabel poly 32 144 32 144 1 gate
+rlabel metal1 -127 179 -105 203 1 source
+rlabel metal1 163 179 185 203 1 drain
+rlabel metal1 -106 111 -84 135 1 gate
 << end >>
